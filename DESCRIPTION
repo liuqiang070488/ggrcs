@@ -1,0 +1,17 @@
+Package: ggrcs
+Type: Package
+Title: A function to draw histograms and restricted cubic splines (RCS).
+Version: 0.1.0
+Author: Qiang LIU
+Maintainer: Qiang LIU <dege857@163.com>
+Description: You can use this function to easily draw a combined.histogram and restricted cubic spline.The function draws the graph through ggplot2.RCS fitting requires the use of the rcs function of the RMS package.Can fit cox regression, logistic regression .
+License: GPL-3
+Depends:
+  R (>= 3.6.0)
+Imports:
+  rms,
+  ggplot2,
+  scales
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.1
